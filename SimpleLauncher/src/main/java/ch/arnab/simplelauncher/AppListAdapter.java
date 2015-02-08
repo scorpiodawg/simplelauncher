@@ -13,9 +13,6 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/**
- * Created by Arnab Chakraborty
- */
 public class AppListAdapter extends ArrayAdapter<AppModel> {
     private final LayoutInflater mInflater;
 

@@ -9,9 +9,6 @@ import android.widget.GridView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Arnab Chakraborty
- */
 public class AppsGridFragment extends GridFragment implements LoaderManager.LoaderCallbacks<ArrayList<AppModel>> {
 
     AppListAdapter mAdapter;

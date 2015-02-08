@@ -6,9 +6,6 @@ import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import java.util.ArrayList;
 
-/**
- * Created by Arnab Chakraborty
- */
 public class AppListFragment extends ListFragment implements LoaderManager.LoaderCallbacks<ArrayList<AppModel>> {
     AppListAdapter mAdapter;
 
